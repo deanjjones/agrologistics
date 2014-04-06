@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>AgroLogistics GraphGenerator Test</title>
+        <script src="jquery/jquery.min.js" type="text/javascript"></script>
+    </head>
+    
+    <body>
+        <form action="<?php echo $this->apiUrl; ?>" method="POST">
+            <h1>AgroLogistics ProductsAvailable Test</h1>
+            
+            <textarea id="requestData" name="requestData" rows="10" cols="80">
+                {
+                    "buyerLocation": "HAV",
+                    "cropType": "YAM"
+                }
+            </textarea>
+            
+            <br />
+            
+            <input type="submit" name="SUBMIT" value="Call Api" />
+        </form>
+    </body>
+</html>

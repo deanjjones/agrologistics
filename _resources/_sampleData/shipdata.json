@@ -1,0 +1,29 @@
+[
+    {
+        vesselName: "Titanic",
+        route:
+                [
+                    {portName: "KIN", landingDate: "1/03/2014", departureDate: "3/03/2014", containerSpaces: 23},
+                    {portName: "HAV", landingDate: "10/03/2014", departureDate: "11/03/2014", containerSpaces: 7},
+                    {portName: "MIA", landingDate: "15/03/2014", departureDate: "17/03/2014", containerSpaces: 19},
+                    {portName: "BEI", landingDate: "25/03/2014", departureDate: "30/03/2014", containerSpaces: 10},
+                    
+                    {portName: "KIN", landingDate: "1/04/2014", departureDate: "3/04/2014", containerSpaces: 10},
+                    {portName: "HAV", landingDate: "10/04/2014", departureDate: "11/04/2014", containerSpaces: 10},
+                    {portName: "MIA", landingDate: "15/04/2014", departureDate: "17/04/2014", containerSpaces: 10},
+                    {portName: "BEI", landingDate: "25/04/2014", departureDate: "30/04/2014", containerSpaces: 10}
+                ]
+                
+    },
+    {
+        vesselName: "Carnival",
+        route:
+                [
+                    {portName: "KIN", landingDate: "1/03/2014", departureDate: "3/03/2014", containerSpaces: 3},
+                    {portName: "HAV", landingDate: "10/03/2014", departureDate: "11/03/2014", containerSpaces: 4},
+                    {portName: "MIA", landingDate: "15/03/2014", departureDate: "17/03/2014", containerSpaces: 4},
+                    {portName: "BEI", landingDate: "25/03/2014", departureDate: "30/03/2014", containerSpaces: 1}
+                ]
+                
+    }
+]
