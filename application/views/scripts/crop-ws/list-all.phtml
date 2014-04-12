@@ -1,0 +1,27 @@
+
+
+<h2>Current Crops</h2>
+
+<?php echo $this->paginationControl($this->paginator,
+'Sliding',
+'partials/pagination-control.phtml'); ?>
+
+<a href = '<?php echo Zend_Controller_Front::getInstance()->getBaseUrl()?>/crop-ws/create'>Add a new Crop</a>
+<table class='spreadsheet' cellspacing='0'  border = 1>
+<tr>
+<th>&nbsp;</th>
+<th>Name</th>
+<th>Air Shelf Life</th>
+<th>Fridge Shelf Life</th>
+<th>Freezer Shelf Life</th>
+<th>Date Available </th>
+<th>Expected Quantity</th>
+</tr>
+<?php echo $this->partialLoop('crop-ws/table-row.phtml', $this->paginator); ?>
+</table>
+
+<?php echo $this->paginationControl($this->paginator,
+'Sliding',
+'partials/pagination-control.phtml'); ?>
+
+
